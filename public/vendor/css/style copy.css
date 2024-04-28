@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: #252525;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  border-bottom: 1px solid var(--primary);
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.navbar-brand span {
+  color: #b6895b;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url('logokos3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero .content {
+  padding: 1.4rem 3%;
+  max-width: 60;
+}
